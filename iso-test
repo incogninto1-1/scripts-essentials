@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Spins up a QEMU VM for testing x86 ISOs
+
+
+qemu-system-x86_64 --enable-kvm --cdrom $1
