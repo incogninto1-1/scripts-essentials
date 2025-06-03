@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Shows battery percentage
+
+cat /sys/class/power_supply/BAT0/capacity
