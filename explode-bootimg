@@ -1,0 +1,5 @@
+#!/bin/bash
+
+##Script for unpacking boot.img file from Android devices and saving the parameters
+
+unpackbootimg -i boot.img -o unpacked > params.txt
