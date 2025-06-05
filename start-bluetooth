@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Unblocks all bluetooth adapters and starts the bluez service (SystemD)
+
+sudo rfkill unblock bluetooth
+sudo systemctl start bluetooth
