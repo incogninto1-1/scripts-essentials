@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# blocks all bluetooth adapters and shuts down the bluez service (SystemD)
+
+sudo systemctl stop bluetooth
+sudo rfkill block bluetooth
